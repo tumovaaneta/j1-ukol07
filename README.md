@@ -8,6 +8,6 @@ Implementujte kód, který načte seznam svátků z JSON souboru a následně vy
 4. Ve třídě `Svatek` implementujte properties `den` a `jmeno`.
    * `den` bude typu `java.time.MonthDay`
    * `jmeno` bude typu `java.lang.String`
-5. Ve třídě `SeznamSvatku` už je připravený `ObjectMapper` a cesta k JSON souboru s daty ve fieldu `cestaKDatum`.
-6. V konstruktoru `SeznamSvatku` implementujte načtení pomocí `objectMapper`u do fieldu `seznamSvatku`.
+5. Ve třídě `SvatkySluzba` (`SeznamSvatku`) už je připravený `ObjectMapper` a cesta k JSON souboru s daty ve fieldu `cestaKDatum`.
+6. V konstruktoru `SvatkySluzba` (`SeznamSvatku`) implementujte načtení pomocí `objectMapper`u do fieldu `seznamSvatku`.
 7. V metodě `vyhledatSvatkyKeDni()` implementujte vyhledání svátků k zadanému dni a vrácení seznamu jmen.
